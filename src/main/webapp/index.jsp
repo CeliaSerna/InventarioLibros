@@ -49,7 +49,7 @@
 <div class="row">
 <div class="col-8">
 <label for="autor" class="label-group"></label>
-<input type="text" class="form-control" placeholder="Autor del libro" name="autor" required value="${param.autor}" pattern="[A-Za-zñÑáéíóúÁÉÍÓÚ ]+">
+<input type="text" class="form-control" placeholder="Autor del libro" name="autor" required value="${param.autor}" pattern="[A-Za-zñÑáéíóúÁÉÍÓÚ., ]+">
 </div>
 
 <div class="col-4">
